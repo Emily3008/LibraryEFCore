@@ -46,7 +46,7 @@ namespace DataLayer.Entities
         [MaxLength(100)]
         public string PromotionalText { get; set; }
         public string ImageUrl { get; set; }
-        public IEnumerable<Review> Review => _reviews?.ToArray();
+        public IEnumerable<Review> Reviews => _reviews?.ToArray();
         public IEnumerable<Tag> Tags => _tags?.ToArray();
 
 
